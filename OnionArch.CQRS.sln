@@ -1,0 +1,62 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34330.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{FC3944D1-B860-4ADF-91A0-0B7BBBCB9921}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{FA3914F5-7FD4-4C43-9D96-18B7FA17819E}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{8BB0DE61-234C-4B34-86E5-148FB79A7CE8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArch.Application", "Core\OnionArch.Application\OnionArch.Application.csproj", "{9B6EE1D3-7837-4EDE-B27B-262679F5DDA3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArch.Domain", "Core\OnionArch.Domain\OnionArch.Domain.csproj", "{7DD3CC38-22DE-4BEF-BB3F-905FA688555A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArch.Infrastructure", "Infrastructure\OnionArch.Infrastructure\OnionArch.Infrastructure.csproj", "{9D705FC8-07DD-4D9E-B78D-96F9F1D9EE76}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArch.Persistence", "Infrastructure\OnionArch.Persistence\OnionArch.Persistence.csproj", "{7844FAA9-EE74-443F-9124-979FC62A4174}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnionArch.WebAPI", "Presentation\OnionArch.WebAPI\OnionArch.WebAPI.csproj", "{304E1FE1-6612-4F16-A505-9761E8C27010}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9B6EE1D3-7837-4EDE-B27B-262679F5DDA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B6EE1D3-7837-4EDE-B27B-262679F5DDA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B6EE1D3-7837-4EDE-B27B-262679F5DDA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B6EE1D3-7837-4EDE-B27B-262679F5DDA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7DD3CC38-22DE-4BEF-BB3F-905FA688555A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7DD3CC38-22DE-4BEF-BB3F-905FA688555A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7DD3CC38-22DE-4BEF-BB3F-905FA688555A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7DD3CC38-22DE-4BEF-BB3F-905FA688555A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D705FC8-07DD-4D9E-B78D-96F9F1D9EE76}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D705FC8-07DD-4D9E-B78D-96F9F1D9EE76}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D705FC8-07DD-4D9E-B78D-96F9F1D9EE76}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D705FC8-07DD-4D9E-B78D-96F9F1D9EE76}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7844FAA9-EE74-443F-9124-979FC62A4174}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7844FAA9-EE74-443F-9124-979FC62A4174}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7844FAA9-EE74-443F-9124-979FC62A4174}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7844FAA9-EE74-443F-9124-979FC62A4174}.Release|Any CPU.Build.0 = Release|Any CPU
+		{304E1FE1-6612-4F16-A505-9761E8C27010}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{304E1FE1-6612-4F16-A505-9761E8C27010}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{304E1FE1-6612-4F16-A505-9761E8C27010}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{304E1FE1-6612-4F16-A505-9761E8C27010}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{9B6EE1D3-7837-4EDE-B27B-262679F5DDA3} = {FC3944D1-B860-4ADF-91A0-0B7BBBCB9921}
+		{7DD3CC38-22DE-4BEF-BB3F-905FA688555A} = {FC3944D1-B860-4ADF-91A0-0B7BBBCB9921}
+		{9D705FC8-07DD-4D9E-B78D-96F9F1D9EE76} = {FA3914F5-7FD4-4C43-9D96-18B7FA17819E}
+		{7844FAA9-EE74-443F-9124-979FC62A4174} = {FA3914F5-7FD4-4C43-9D96-18B7FA17819E}
+		{304E1FE1-6612-4F16-A505-9761E8C27010} = {8BB0DE61-234C-4B34-86E5-148FB79A7CE8}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E3C79700-7F83-462A-82EF-04DD3500E64A}
+	EndGlobalSection
+EndGlobal
