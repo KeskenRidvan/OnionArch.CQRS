@@ -1,5 +1,6 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using OnionArch.Application.Interfaces.Repositories;
+using OnionArch.Domain.Common;
 
 namespace OnionArch.Persistence.Repositories;
 

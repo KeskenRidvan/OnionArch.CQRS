@@ -1,4 +1,6 @@
-﻿namespace OnionArch.Application.Interfaces.Repositories;
+﻿using OnionArch.Domain.Common;
+
+namespace OnionArch.Application.Interfaces.Repositories;
 
 public interface IWriteRepository<TEntity> where TEntity : class, IEntityBase, new()
 {
