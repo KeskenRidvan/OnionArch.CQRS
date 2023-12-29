@@ -7,7 +7,16 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="MediatR" Version="12.2.0" />
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\Products\Commands\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\OnionArch.Domain\OnionArch.Domain.csproj" />
   </ItemGroup>
 
 </Project>

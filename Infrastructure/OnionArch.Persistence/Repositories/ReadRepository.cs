@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Query;
 using OnionArch.Application.Interfaces.Repositories;
+using OnionArch.Domain.Common;
 using System.Linq.Expressions;
 
 namespace OnionArch.Persistence.Repositories;

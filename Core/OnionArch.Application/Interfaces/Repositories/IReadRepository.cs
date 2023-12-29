@@ -1,4 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore.Query;
+using OnionArch.Domain.Common;
 using System.Linq.Expressions;
 
 namespace OnionArch.Application.Interfaces.Repositories;
