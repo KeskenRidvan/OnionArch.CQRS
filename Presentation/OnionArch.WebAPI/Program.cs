@@ -1,4 +1,5 @@
 using OnionArch.Application;
+using OnionArch.Mapper;
 using OnionArch.Persistence;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -18,6 +19,7 @@ builder.Configuration
 
 builder.Services.AddPersistence(builder.Configuration);
 builder.Services.AddApplicaton();
+builder.Services.AddCustomMapper();
 
 var app = builder.Build();
 
